@@ -1,23 +1,22 @@
 # 🏙️ EDA – Airbnb NYC
 
-📌 **Objetivo:**  
-Este projeto realiza uma Análise Exploratória de Dados (EDA) sobre anúncios do Airbnb em Nova York, com foco em entender os fatores que influenciam os preços dos imóveis, padrões de distribuição e insights relevantes para o mercado de hospedagem.
+
+## 🎯 Objetivo
+Este projeto realiza uma Análise Exploratória de Dados (EDA) sobre anúncios do **Airbnb em Nova York (2019)**, com foco em entender os fatores que influenciam os preços dos imóveis, padrões de distribuição e insights relevantes para o mercado de hospedagem.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🗂 Estrutura do Projeto
 - `data/` → contém o dataset bruto utilizado na análise.  
 - `notebooks/` → Jupyter Notebooks com o passo a passo da análise.  
-- `images/` → gráficos e visualizações gerados no EDA.  
-- `README.md` → documentação do projeto.  
-- `requirements.txt` → bibliotecas necessárias para execução.
+- `images/` → gráficos e visualizações gerados na EDA.  
+- `requirements.txt` → bibliotecas necessárias para execução.  
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 🛠 Ferramentas Utilizadas
 - Python  
 - Pandas  
-- NumPy  
 - Matplotlib  
 - Seaborn  
 - Jupyter Notebook  
@@ -26,27 +25,32 @@ Este projeto realiza uma Análise Exploratória de Dados (EDA) sobre anúncios d
 
 ## 🔎 Etapas da Análise
 1. **Carregamento e inspeção inicial do dataset**  
-   - Estrutura, tipos de dados e valores faltantes.  
-2. **Limpeza de dados**  
-   - Tratamento de valores nulos, conversão de variáveis, remoção de outliers.  
-3. **Análises exploratórias**  
-   - Distribuição de preços.  
-   - Comparação de preços por bairro e tipo de imóvel.  
-   - Relação entre número de reviews e preço.  
-4. **Visualizações**  
-   - Histogramas, boxplots, heatmaps, scatterplots.  
-5. **Insights finais**  
-   - Principais aprendizados e possíveis próximos passos.  
+2. **Tratamento de valores ausentes e outliers**  
+3. **Distribuição de preços e cap no percentil 99**  
+4. **Análise comparativa por região (borough)**  
+5. **Análise comparativa por tipo de acomodação**  
+6. **Visualizações (histogramas, boxplots, etc.)**  
+7. **Insights finais**
 
 ---
 
 ## 📊 Exemplos de Visualizações
-*(serão adicionados após execução do notebook)*  
+
+Distribuição de preços (cap no 99º percentil):  
+![Distribuição de Preços](images/preco_hist.png)
+
+Preço por tipo de acomodação (cap no 99º percentil):  
+![Preço por Tipo de Acomodação](images/preco_por_tipo_box.png)
 
 ---
 
-## 🚀 Como Reproduzir
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/BernardoCorral/eda-airbnb.git
-   cd eda-airbnb
+## 💡 Insights Iniciais
+
+- **Preços por região:** Manhattan apresenta a mediana mais alta (USD 150), seguido por Brooklyn (USD 90). Já Bronx tem os preços medianos mais acessíveis (USD 65).  
+- **Preços por tipo de acomodação:** Entire home/apt possui a maior mediana (USD 160), enquanto Shared room tem o menor valor (USD 45).  
+- Esses padrões reforçam a forte diferença entre os bairros de Nova York e como o tipo de acomodação influencia no valor.  
+- Valores ausentes em `reviews_per_month` foram preenchidos com zero para manter consistência dos dados.
+
+---
+
+📌 Este projeto faz parte do meu portfólio de aprendizado em **Data Science**, com foco em boas práticas de análise e visualização de dados.
