@@ -53,4 +53,10 @@ Preço por tipo de acomodação (cap no 99º percentil):
 
 ---
 
+
+## 📁 Dados
+- **Fonte**: [New York City Airbnb Open Data (AB_NYC_2019) – Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
+- **Arquivo utilizado**: `airbnb_nyc.csv` (renomeado a partir do `AB_NYC_2019.csv` original).
+
+
 📌 Este projeto faz parte do meu portfólio de aprendizado em **Data Science**, com foco em boas práticas de análise e visualização de dados.
