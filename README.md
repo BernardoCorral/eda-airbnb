@@ -48,5 +48,5 @@ Este projeto realiza uma Análise Exploratória de Dados (EDA) sobre anúncios d
 ## 🚀 Como Reproduzir
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/eda-airbnb.git
+   git clone https://github.com/BernardoCorral/eda-airbnb.git
    cd eda-airbnb
