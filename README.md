@@ -1,5 +1,6 @@
 # 🏙️ EDA – Airbnb NYC
 
+# Análise Exploratória do Airbnb em NYC
 
 ## 🎯 Objetivo
 Este projeto realiza uma Análise Exploratória de Dados (EDA) sobre anúncios do **Airbnb em Nova York (2019)**, com foco em entender os fatores que influenciam os preços dos imóveis, padrões de distribuição e insights relevantes para o mercado de hospedagem.
@@ -50,6 +51,8 @@ Preço por tipo de acomodação (cap no 99º percentil):
 - **Preços por tipo de acomodação:** Entire home/apt possui a maior mediana (USD 160), enquanto Shared room tem o menor valor (USD 45).  
 - Esses padrões reforçam a forte diferença entre os bairros de Nova York e como o tipo de acomodação influencia no valor.  
 - Valores ausentes em `reviews_per_month` foram preenchidos com zero para manter consistência dos dados.
+- Esses resultados iniciais fornecem uma visão clara sobre os padrões de preços em NYC, servindo de base para futuras análises preditivas.
+
 
 ---
 
